@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin:  0 auto;
+}
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.item {
+    float: left;
+    padding: 10px 0 0 10px;
+}
+.item-img {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    background-color: #ddd;
+}
+.item-img img {
+    width: 300px;
+    height: auto;
+}
